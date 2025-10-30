@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Museum of Me</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <span class="logo-sm"> Museum of </span>
+            <span class="logo-lg"> ME </span>
+        </a>
+        <nav>
+            <ul class="primary-nav">
+                <li><a href="current.html">Current Stats</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="logs.html">Logs</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="purple-bkg">
+        <div class="wrapper">
+            <h2>Frequently Used Items</h2>
+            <div class="grid-parent-slider">
+                <div><model-viewer src="assets/slippers.glb" auto-rotate camera-controls></model-viewer></div>
+                <div>
+                    <p>description of my item</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+            </div>
+
+            <!-- <p>Object 2 description</p>
+            <a href="#">Button</a>
+            <p>Object 3 description</p>
+            <a href="#">Button</a> -->
+        </div>
+    </section>
+    <section class="green-bkg">
+        <div class="wrapper">
+            <H2>People I See</H2>
+            <div class="grid-parent-4">
+                <div><img src="images/Nancy.png" alt="Nancy Avatar">
+                    <h3>Mom</h3>
+                </div>
+                <div><img src="images/Nathan.png" alt="Nathan Avatar">
+                    <h3>Nathan</h3>
+                </div>
+                <div><img src="images/Kim.png" alt="Kim Avatar">
+                    <h3>Kim</h3>
+                </div>
+                <div><img src="images/Kassandra.png" alt="Kassandra Avatar">
+                    <h3>Kassandra</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pink-bkg">
+        <div class="wrapper">
+            <h2>Places I Am</h2>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1rfe2Z59H2suBpTyLpLcoFrBNG8dHPcQ&ehbc=2E312F"
+                width="640" height="480"></iframe>
+        </div>
+    </section>
+    <section class="yellow-bkg">
+        <div class="wrapper">
+            <H2>Things I Hear</H2>
+            <div class="grid-parent-hear">
+            <div><q>Do you work today?</q>
+                <audio controls>
+                    <source src="assets/cat_meow.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div><q>Have a good day.</q>
+                <audio controls>
+                    <source src="assets/cat_meow.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div><q>Where you at?</q>
+                <audio controls>
+                    <source src="assets/cat_meow.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div><q>Supper's ready</q>
+                <audio controls>
+                    <source src="assets/cat_meow.mp3" type="audio/mp3">
+                </audio></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

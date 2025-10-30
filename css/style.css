@@ -1,0 +1,142 @@
+/* ALWAYS INCLUDE THESE AT THE TOP OF YOUR CSS DOCUMENT*/
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* END ALWAYS INCLUDE */
+
+body {
+    font-family: "Kameron", serif;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: CENTER;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    IMG {}
+
+}
+
+header {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+model-viewer {
+    width: 100%;
+    height: 40vh;
+}
+
+.wrapper {
+    max-width: 1275px;
+    margin: auto;
+    /* centers the container*/
+}
+
+.purple-bkg {
+    background-color: #A7ACC5;
+    padding: 80px;
+}
+
+.green-bkg {
+    background-color: #9ADBCF;
+    padding: 80px;
+}
+
+.pink-bkg {
+    background-color: #FFB7B2;
+    padding: 80px 0px;
+}
+
+.pink-bkg h2 {
+    padding-left: 80px;
+}
+
+.yellow-bkg {
+    background-color: #FFD99D;
+    padding: 80px;
+}
+
+.grid-parent-slider {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.grid-parent-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.grid-parent-hear {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3b3b3b;
+    display: flex;
+    align-items: center;
+}
+
+.logo-sm {
+    font-family: "Kameron", serif;
+    font-size: 26px;
+    font-weight: 600;
+    width: 120px;
+    text-align: right;
+}
+
+.logo-lg {
+    font-size: 83px;
+    font-weight: 700;
+}
+
+.button {
+    text-decoration: none;
+    color: #000;
+    background: #FFB7B2;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 27px;
+    transition: background-color .5s;
+}
+
+.button:hover {
+    background: #fbcac6;
+}
