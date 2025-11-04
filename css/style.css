@@ -105,7 +105,14 @@ model-viewer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 25px;
-  
+    width: 100%; 
+}
+.where{
+    grid-column: 1;
+    grid-row: 2;
+}
+.supper{
+    grid-column: 2;
 }
 
 .logo {
